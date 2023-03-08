@@ -1,3 +1,4 @@
+/* Cabecalho */
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -6,6 +7,7 @@
     column-gap: 33px;
 }
 
+/* Categoria */
 .categorias__lista {
     display: flex;
     flex-direction: column;
@@ -13,12 +15,22 @@
 }
 @media(min-width: 720px){
     
+    /* Cabecalho */
     .menu{
         column-gap: 75px;
+    }
+    /* Categoria */
+
+    .categorias__lista {
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
     }
 }
 
 @media (min-width: 1440px){
+
+        /* Cabecalho */
 
     .menu{
         column-gap: 105px;
